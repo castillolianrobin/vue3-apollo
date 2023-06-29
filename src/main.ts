@@ -12,7 +12,7 @@ import { DefaultApolloClient } from '@vue/apollo-composable'
 // HTTP connection to the API
 const httpLink = createHttpLink({
   // You should use an absolute URL here
-  uri: 'https://main--lian-robin-castillos-92ydxb.apollographos.net/graphql',
+  uri: 'https://graphqlzero.almansi.me/api',
 })
 
 // Cache implementation
